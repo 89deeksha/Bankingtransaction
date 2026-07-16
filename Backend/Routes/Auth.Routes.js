@@ -15,7 +15,7 @@ router.post("/login",registeruser.LoginController)
 
 // blacklisttoken api
 
-router.get("/logout",)
+router.get("/logout",registeruser.LogoutUser)
 
 
 
