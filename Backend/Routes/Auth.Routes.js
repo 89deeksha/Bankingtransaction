@@ -20,7 +20,7 @@ router.get("/logout",registeruser.LogoutUser)
 
 // get the current loggedin user detail
 
-router.get('/get-me',Authmidd.Authmiddleware,)
+router.get('/get-me',Authmidd.Authmiddleware,registeruser.GetmeController)
 
 
 
